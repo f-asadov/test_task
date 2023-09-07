@@ -1,0 +1,41 @@
+.filters {
+  flex: 30%;
+  align-items: center;
+  
+  padding-left: 20px;
+}
+
+
+.currency-wrapper{
+  
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.currency-buttons-wrapper button:first-child {
+  border-top-left-radius: 5px;
+  /* Устанавливает border-radius только у левой кнопки слева */
+  border-bottom-left-radius: 5px;
+  /* Устанавливает border-radius только у левой кнопки слева */
+}
+
+.currency-buttons-wrapper button:last-child {
+  border-top-right-radius: 5px;
+  /* Устанавливает border-radius только у правой кнопки справа */
+  border-bottom-right-radius: 5px;
+  /* Устанавливает border-radius только у правой кнопки справа */
+}
+
+.currency-button {
+  width: 80px;
+  height: 50px;
+  color: #007bff;
+  border: none;
+  border: 1px solid #007bff;
+  cursor: pointer;
+  background-color: #fff; /* Фон по умолчанию - белый */
+}
+
+.currency-button.selected {
+  background-color: #007bff; /* Фон для выбранной кнопки - синий */
+  color: #fff;
+}

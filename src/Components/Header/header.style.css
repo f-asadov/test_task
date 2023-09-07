@@ -1,0 +1,18 @@
+.header {
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .header-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+  }
+  
+  .plane-icon {
+    width: 48px; 
+    height: 48px; 
+  }
+  
